@@ -20,12 +20,16 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Button id="Popover1" type="button">
-          Help
+        <Button id="Popover1" type="button" color ="danger">
+          HELP
         </Button>
         <Popover placement="bottom" isOpen={this.state.popoverOpen} target="Popover1" toggle={this.toggle}>
-          <PopoverHeader>Popover Title</PopoverHeader>
-          <PopoverBody>To purchase a couch, click on the "Buy" button of the couch you want. It will display a popup window. Complete the form with the required information, then click "Complete Purchase" to set and pay for your couch. Good luck!</PopoverBody>
+          <PopoverHeader>Purchasing Information</PopoverHeader>
+          <PopoverBody>
+              To purchase a couch, click on the "Buy" button of the couch you want. 
+              It will display a popup window. Complete the form with the required information, 
+              then click "Complete Purchase" to set and pay for your couch. Enjoy your visit!
+            </PopoverBody>
         </Popover>
       </div>
     );

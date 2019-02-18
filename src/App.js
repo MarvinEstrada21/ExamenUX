@@ -6,6 +6,7 @@ import PicLayout from './PicLayout';
 import Carousel from './Carousel';
 import Info from './Info';
 import SearchBar from './SearchBar';
+import Help from './Help';
 
 class App extends Component {
   render() {
@@ -15,6 +16,9 @@ class App extends Component {
         <Navbar/>
         <center><SearchBar/></center>
         <center><Carousel/></center>
+        <br/>
+        <center><Help/></center>
+        <br/>
         <PicLayout/>
         <br/>
         <center><Info/></center>
