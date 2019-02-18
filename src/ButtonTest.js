@@ -37,7 +37,7 @@ class ModalExample extends React.Component {
             <Input type="text" name="text" id="exampleText" placeholder="Security Code" /> <br/>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Confirm Purchase</Button>{''}
+            <Button color="primary" onClick={this.toggle}>Complete Purchase</Button>{''}
             <Button color="secondary" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
