@@ -12,11 +12,9 @@ class App extends Component {
       <div className="App">
         <center><img src={logo} style={{width:450,height:150}}/></center>
         <Navbar/>
-        <center>
-          <Carousel/>
-        </center>
+        <center><Carousel/></center>
         <PicLayout/>
-        <br></br>
+        <br/>
         <center><Info/></center>
       </div>
     );
