@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 class ModalExample extends React.Component {
   constructor(props) {
@@ -26,10 +27,17 @@ class ModalExample extends React.Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle} close={closeBtn}>Customer Details</ModalHeader>
           <ModalBody>
-            This is just a test of when people will click on the button when they will buy a couch
+            {/*<Label for="exampleText">Name</Label>*/}
+            <Input type="text" name="text" id="exampleText" placeholder="Name" /> <br/>
+            <Input type="text" name="text" id="exampleText" placeholder="Adress" /> <br/>
+            <Input type="text" name="text" id="exampleText" placeholder="Delivery Date: mm/dd/yyyy" /> <br/>
+            <Input type="text" name="text" id="exampleText" placeholder="Credit/Debit Card Number" /> <br/>
+            <Input type="text" name="text" id="exampleText" placeholder="Cardholder Name" /> <br/>
+            <Input type="text" name="text" id="exampleText" placeholder="Card Expiration Date: mm/yyyy" /> <br/>
+            <Input type="text" name="text" id="exampleText" placeholder="Security Code" /> <br/>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Confirm</Button>{' '}
+            <Button color="primary" onClick={this.toggle}>Confirm Purchase</Button>{''}
             <Button color="secondary" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
