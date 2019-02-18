@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import logo from './LogoCouchUp.jpg';
 import PicLayout from './PicLayout';
 import Carousel from './Carousel';
+import Info from './Info';
 
 class App extends Component {
   render() {
@@ -15,6 +16,8 @@ class App extends Component {
           <Carousel/>
         </center>
         <PicLayout/>
+        <br></br>
+        <center><Info/></center>
       </div>
     );
   }
