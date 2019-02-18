@@ -1,27 +1,46 @@
 import React, { Component } from 'react';
 import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption} from 'reactstrap';
-import Couch1 from './Couch1.jpg'
-import Couch2 from './Couch2.jpg'
-import Couch3 from './Couch3.jpg'
+import { UncontrolledCarousel } from 'reactstrap';
+import Couch13 from './Couch13.jpg'
+import Couch14 from './Couch14.jpg'
+import Couch15 from './Couch15.jpg'
+import Couch16 from './Couch16.jpg'
+import Couch17 from './Couch17.jpg'
+import Couch18 from './Couch18.jpg'
 
 const items = [
   {
-    src: Couch1, 
+    src: Couch13, 
     altText: '',
     caption: ''
   },
   {
-    src: Couch2,
+    src: Couch14,
     altText: '',
     caption: ''
   },
   {
-    src: Couch3,
+    src: Couch15,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: Couch16,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: Couch17,
+    altText: '',
+    caption: ''
+  },
+  {
+    src: Couch18,
     altText: '',
     caption: ''
   }
 ];
-
+{/*}
 class CouchCarousel extends Component {
   constructor(props) {
     super(props);
@@ -87,6 +106,7 @@ class CouchCarousel extends Component {
       </Carousel>
     );
   }
-}
+}*/}
+const CouchCarousel = () => <UncontrolledCarousel items={items} />;
 
 export default CouchCarousel;
