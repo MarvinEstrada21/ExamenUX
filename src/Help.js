@@ -21,11 +21,11 @@ export default class Example extends React.Component {
     return (
       <div>
         <Button id="Popover1" type="button">
-          Launch Popover
+          Help
         </Button>
         <Popover placement="bottom" isOpen={this.state.popoverOpen} target="Popover1" toggle={this.toggle}>
           <PopoverHeader>Popover Title</PopoverHeader>
-          <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
+          <PopoverBody>To purchase a couch, click on the "Buy" button of the couch you want. It will display a popup window. Complete the form with the required information, then click "Complete Purchase" to set and pay for your couch. Good luck!</PopoverBody>
         </Popover>
       </div>
     );
