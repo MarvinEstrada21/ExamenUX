@@ -7,7 +7,7 @@ const Example = (props) => {
             <InputGroup>
                 <Input placeholder="Insert a color" />
                 <InputGroupAddon addonType="append">
-                    <Button color="secondary">Search</Button>
+                    <Button color="secondary">🔍 Search</Button>
                 </InputGroupAddon>
             </InputGroup>
         </div>
