@@ -15,7 +15,7 @@ class Info extends Component {
   render() {
     return (
       <div>
-        <Button color="primary" onClick={this.toggle} style={{ marginBottom: '1rem' }}>Information</Button>
+        <Button color="info" onClick={this.toggle} style={{ marginBottom: '1rem' }}>Information</Button>
         <Collapse isOpen={this.state.collapse}>
           <Card>
             <CardBody>
