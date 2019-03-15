@@ -29,7 +29,7 @@ class ModalExample extends React.Component {
           <ModalBody>
             {/*<Label for="exampleText">Name</Label>*/}
             <Input type="text" name="text" id="exampleText" placeholder="Name" /> <br/>
-            <Input type="text" name="text" id="exampleText" placeholder="Adress" /> <br/>
+            <Input type="text" name="text" id="exampleText" placeholder="Address" /> <br/>
             <Input type="text" name="text" id="exampleText" placeholder="Delivery Date: mm/dd/yyyy" /> <br/>
             <Input type="text" name="text" id="exampleText" placeholder="Credit/Debit Card Number" /> <br/>
             <Input type="text" name="text" id="exampleText" placeholder="Cardholder Name" /> <br/>

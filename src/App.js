@@ -8,17 +8,13 @@ import Carousel from './Carousel';
 import Info from './Info';
 import SearchBar from './SearchBar';
 import Help from './Help';
+import Home from './Home';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Container fluid>
-                <Row>
-                  <center><img src={logo} style={{width:450,height:150}}/></center>
-                </Row>
-            </Container>
-        {/*<center><img src={logo} style={{width:450,height:150}}/></center>*/}
+        {/*<center><img src={logo} style={{width:450,height:150}}/></center>
         <Navbar/>
         <center><SearchBar/></center>
         <center><Carousel/></center>
@@ -27,7 +23,8 @@ class App extends Component {
         <br/>
         <PicLayout/>
         <br/>
-        <center><Info/></center>
+        <center><Info/></center>*/}
+        <Home/>
       </div>
     );
   }
