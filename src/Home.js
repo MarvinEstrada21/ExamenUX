@@ -3,6 +3,7 @@ import logo from './LogoCouchUp.jpg';
 import { Container, Row, Col } from 'reactstrap';
 import Carousel from './Carousel';
 import Info from './Info';
+import HomeNavBar from './HomeNavBar';
 import Couch1 from './Pics/Couch1.jpg';
 import Couch2 from './Pics/Couch2.jpg';
 import Couch3 from './Pics/Couch3.jpg';
@@ -27,6 +28,7 @@ class Home extends Component {
         return (
             <div className="Home">
                 <center><img src={logo} style={{ width: 450, height: 150 }} /></center>
+                <HomeNavBar/>
                 <center>
                     <Row>
                         <Col><center><Carousel /></center></Col>
