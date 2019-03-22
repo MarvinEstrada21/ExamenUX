@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption} from 'reactstrap';
 import { UncontrolledCarousel } from 'reactstrap';
-import Couch13 from './Pics/Couch13.jpg';
-import Couch14 from './Pics/Couch14.jpg';
-import Couch15 from './Pics/Couch15.jpg';
-import Couch16 from './Pics/Couch16.jpg';
-import Couch17 from './Pics/Couch17.jpg';
-import Couch18 from './Pics/Couch18.jpg';
+import Couch13 from '../Pics/Couch13.jpg';
+import Couch14 from '../Pics/Couch14.jpg';
+import Couch15 from '../Pics/Couch15.jpg';
+import Couch16 from '../Pics/Couch16.jpg';
+import Couch17 from '../Pics/Couch17.jpg';
+import Couch18 from '../Pics/Couch18.jpg';
 
 const items = [
   {

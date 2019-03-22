@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import CouchCard from './CouchCard';
-import Couch1 from './Pics/Couch1.jpg';
-import Couch2 from './Pics/Couch2.jpg';
-import Couch3 from './Pics/Couch3.jpg';
-import Couch4 from './Pics/Couch4.jpg';
-import Couch5 from './Pics/Couch5.jpg';
-import Couch6 from './Pics/Couch6.jpg';
-import Couch7 from './Pics/Couch7.jpg';
-import Couch8 from './Pics/Couch8.jpg';
-import Couch9 from './Pics/Couch9.jpg';
-import Couch10 from './Pics/Couch10.jpg';
-import Couch11 from './Pics/Couch11.jpg';
-import Couch12 from './Pics/Couch12.jpg';
+import Couch1 from '../Pics/Couch1.jpg';
+import Couch2 from '../Pics/Couch2.jpg';
+import Couch3 from '../Pics/Couch3.jpg';
+import Couch4 from '../Pics/Couch4.jpg';
+import Couch5 from '../Pics/Couch5.jpg';
+import Couch6 from '../Pics/Couch6.jpg';
+import Couch7 from '../Pics/Couch7.jpg';
+import Couch8 from '../Pics/Couch8.jpg';
+import Couch9 from '../Pics/Couch9.jpg';
+import Couch10 from '../Pics/Couch10.jpg';
+import Couch11 from '../Pics/Couch11.jpg';
+import Couch12 from '../Pics/Couch12.jpg';
 
 class PicLayout extends Component {
     constructor() {
