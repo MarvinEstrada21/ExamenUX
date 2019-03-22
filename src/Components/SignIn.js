@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 import { Form, FormGroup, Input, Row, Col, Button } from 'reactstrap';
+import { Link } from "react-router-dom";
 import logo from '../LogoCouchUp.jpg';
 import HomeNavBar from './HomeNavBar';
 
@@ -36,7 +37,11 @@ class SignIn extends Component {
                         </Row>
                     </Form>
                     <br/>
-                    <center><Button onClick="/Store">Sign in</Button></center>
+                    <center>
+                        <Link to="/Store">
+                            <Button color="success">Sign in</Button>
+                        </Link>
+                    </center>
                 </Container>
             </div>
         );

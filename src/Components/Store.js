@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Container } from 'reactstrap';
 import logo from '../LogoCouchUp.jpg';
 import Navbar from './Navbar';
 import SearchBar from './SearchBar';

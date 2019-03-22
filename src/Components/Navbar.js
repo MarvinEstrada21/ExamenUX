@@ -1,5 +1,6 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
+import { NavLink } from "react-router-dom";
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -19,16 +20,13 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark>
+        <Navbar color="light" light expand="md">
           <NavbarBrand href="/" className="mr-auto">CouchUp Online Store</NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-          <Collapse isOpen={!this.state.collapsed} navbar>
-            <Nav navbar>
-              <NavItem>
-                <NavLink href="https://github.com/MarvinEstrada21/ExamenUX.git">GitHub</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink to="/">Sign Out</NavLink>
+            </NavItem>
+          </Nav>
         </Navbar>
       </div>
     );
